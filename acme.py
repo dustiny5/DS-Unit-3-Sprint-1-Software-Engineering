@@ -46,3 +46,6 @@ class BoxingGlove(Product):
             print('Hey that hurt!')
         else:
             print('Ouch!')
+
+    def explode(self):
+        print('...its a glove.')
