@@ -2,7 +2,7 @@ import random
 from acme import Product
 
 class Report(Product):
-    ADJECTIVES = ['Awesome', 'Shiny', 'Impressive', 'Portable' 
+    ADJECTIVES = ['Awesome', 'Shiny', 'Impressive', 'Portable', 
             'Improved']
     NOUN = ['Anvil', 'Catapult', 'Disguise', 'Mousetrap', '???']
 
