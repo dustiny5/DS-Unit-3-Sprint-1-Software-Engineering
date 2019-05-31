@@ -20,8 +20,10 @@ class Report(Product):
 
 def generate_products(inventory=30):
 
+    # Get random sample of ADJ and NOUN 
     prod_list = [random.sample(ADJECTIVES, 1) + random.sample(NOUN, 1)
                  for i in range(inventory)]
+    # Join ADJ and NOUN to create a name
     prod_list = [' '.join(i) for i in prod_list]
     return [Report(i) for i in prod_list]
 
